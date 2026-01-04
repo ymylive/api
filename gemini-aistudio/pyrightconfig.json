@@ -1,0 +1,66 @@
+{
+  "include": ["."],
+  "exclude": [
+    "**/__pycache__",
+    "**/*.pyc",
+    ".git",
+    ".venv",
+    "node_modules",
+    "deprecated_javascript_version",
+    "errors_py",
+    "logs",
+    "tests/**"
+  ],
+  "extraPaths": [
+    ".",
+    "./api_utils",
+    "./browser_utils",
+    "./config",
+    "./models",
+    "./logging_utils",
+    "./stream"
+  ],
+  "pythonVersion": "3.9",
+  "pythonPlatform": "All",
+  "typeCheckingMode": "standard",
+  "useLibraryCodeForTypes": true,
+  "autoImportCompletions": true,
+  "stubPath": "",
+
+  "reportMissingImports": "error",
+  "reportUndefinedVariable": "error",
+  "reportAssertAlwaysTrue": "error",
+  "reportInvalidStringEscapeSequence": "error",
+  "reportInvalidTypeVarUse": "error",
+  "reportConstantRedefinition": "error",
+  "reportGeneralTypeIssues": "error",
+  "reportPropertyTypeMismatch": "error",
+  "reportFunctionMemberAccess": "error",
+  "reportIncompatibleMethodOverride": "error",
+  "reportIncompatibleVariableOverride": "error",
+  "reportInconsistentConstructor": "error",
+
+  "reportOptionalSubscript": "error",
+  "reportOptionalMemberAccess": "error",
+  "reportOptionalCall": "error",
+  "reportOptionalIterable": "error",
+  "reportOptionalContextManager": "error",
+  "reportOptionalOperand": "error",
+
+  "reportUnknownParameterType": "warning",
+  "reportUnknownArgumentType": "warning",
+  "reportUnknownLambdaType": "warning",
+  "reportUnknownVariableType": "warning",
+  "reportUnknownMemberType": "warning",
+
+  "reportMissingParameterType": "warning",
+  "reportMissingTypeArgument": "warning",
+  "reportMissingTypeStubs": "none",
+
+  "reportPrivateUsage": "warning",
+  "reportUnnecessaryIsInstance": "warning",
+  "reportUnnecessaryCast": "warning",
+  "reportUnnecessaryComparison": "warning",
+  "reportDuplicateImport": "warning",
+  "reportTypedDictNotRequiredAccess": "warning"
+}
